@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lora:400,700.400italic,700italic&display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans-300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&display=swap"/>
+    <link rel="stylesheet" href="{% static '/css/thing.css' %}">
+</head>
+<body class=align-items-center" style="background:rgb(40,40,40);">
+<nav id="mainNav" class="navbar navbar-light navbar-expand-lg fixed-top" style="background:rgb(40,40,40);">
+    <div class="container">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div id="navbarResponsive" class="collapse navbar-collapse">
+            <a class="navbar-brand"
+               style="--bs-body-color:#959597; -bs-dark:#212529; -bs-dark-rgb: 33,37,41; color:white;">Point & Click</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white;" href="/catalog/">Каталог</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container" >
+  <div class="row" >
+    <div class="col-sm-6" >
+      <img class="float-end justify-content-start align-items-start" src="{% static 'image/main.png' %}"/>
+    </div>
+    <div class="col-sm-6">
+      <div class="text-right text-white" style="padding-top: 100px; padding-left: 50px;">
+        <h3>Добро пожаловать!</h3>
+        <p> Вы оказались на главной страничке сайта-каталога комиксов с интерактивными
+            элементами. Здесь вы найдете разнообразные жанры и получите уникальный опыт взаимодействия с
+            веб-новеллами. Приятного чтения!</p>
+        <a style="opacity: 30%; padding-top: 100px;">По всем вопросам и для добавления комиксов обращаться:</a>
+        <a href="https://t.me/mmmerd" class="fa fa-telegram"></a>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto" style="padding-bottom: 350px;">
+            </div>
+        </div>
+        <footer class=" text-white" style="background: rgb(40,40,40);">
+            <div class="container py-4 py-lg-5">
+                <div class="row justify-content-center"></div>
+                <hr/>
+                <div class="d-flex justify-content-between align-items-center pt-3">
+                    <p class="mb-0">2023 Point & Click</p>
+                </div>
+            </div>
+        </footer>
+        <hr/>
+    </div>
+</div>
+</body>
+</html>

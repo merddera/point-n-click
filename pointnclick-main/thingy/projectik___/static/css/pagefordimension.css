@@ -1,0 +1,297 @@
+.background {
+    padding-top: 106px;
+    z-index: 1;
+    }
+
+.fa {
+    padding: 20px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: gray;
+    color: white;
+    }
+
+.fa:hover {
+    opacity: 0.7;
+    }
+
+/* PAGE 1 */
+
+.p1_1 {
+    animation-duration: 3s;
+    animation-name: pagefordimension1_1;
+    position: relative;
+    z-index: 3;
+    left: 50px;
+    top: 300px;
+    }
+
+.p1_3 {
+    animation-duration: 5s;
+    animation-name: pagefordimension1_2;
+    position: relative;
+    z-index: 2;
+    top: -350px;
+    }
+
+.p1_4 {
+    animation-duration: 5s;
+    animation-name: pagefordimension1_3;
+    position: relative;
+    z-index: 1;
+    top: -865px;
+    }
+
+@keyframes pagefordimension1_1 {
+    from {
+    top: 100px;
+    }
+    to {
+    top: 300px;
+    } }
+
+@keyframes pagefordimension1_2 {
+    from {
+    top: -550px;
+    }
+    to {
+    top: -350px;
+    } }
+
+@keyframes pagefordimension1_3 {
+    from {
+    top: -1050px;
+    }
+    to {
+    top: -865px;
+    } }
+
+/* PAGE 2 */
+
+.p2_1 {
+    position: relative;
+    top: -500px;
+    z-index: 2;
+    }
+
+/* PAGE 3 */
+
+.p3_1 {
+    animation-duration: 3s;
+    animation-name: pagefordimension3_1;
+    position: relative;
+    z-index: 2;
+    top: -520px;
+    }
+
+.p3_2 {
+    position: relative;
+    z-index: 3;
+    top: -1040px;
+    right: -25px;
+    }
+
+@keyframes pagefordimension3_1 {
+    from {
+    top: -540px;
+    }
+    to {
+    top: -520px;
+    } }
+
+/* PAGE 4 */
+
+.p4_1 {
+    animation-duration: 1s;
+    animation-name: pagefordimension4_1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    z-index: 2;
+    }
+
+@keyframes pagefordimension4_1 {
+    from {
+    top: -520px;
+    }
+    to {
+    top: -500px;
+    } }
+
+    /* PAGE 5 */
+
+.p5_1 {
+    position: relative;
+    z-index: 2;
+    top: -513px;
+    }
+
+    /* PAGE 6 */
+
+.p6_1 {
+    position: relative;
+    z-index: 2;
+    top: -513px;
+    }
+
+    /* PAGE 7 */
+
+.p7_1 {
+    position: relative;
+    z-index: 3;
+    top: -513px;
+    right: -50px;
+    }
+
+.p7_2 {
+    position: relative;
+    z-index: 2;
+    animation-duration: 3s;
+    animation-name: pagefordimension7_2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    }
+
+@keyframes pagefordimension7_2 {
+    from {
+    top: -1013px;
+    }
+    to {
+    top: -980px;
+    } }
+
+    /* PAGE 8 */
+
+.p8_1 {
+    position: relative;
+    z-index: 2;
+    top: -500px;
+    right: -30px;
+    }
+
+    /* PAGE 9 */
+
+.p9_1 {
+    position: relative;
+    z-index: 2;
+    top: -500px;
+    right: -30px;
+    }
+
+    /* PAGE 10 */
+
+.p10_1 {
+    position: relative;
+    z-index: 2;
+    animation-duration: 0.5s;
+    animation-name: pagefordimension10_1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    }
+
+@keyframes pagefordimension10_1 {
+    from {
+    top: -500px;
+    right: -10px;
+    }
+    to {
+    top: -530px;
+    right: 10px;
+    } }
+
+    /* PAGE 11 */
+
+.p11_1{
+    position: relative;
+    z-index: 2;
+    top: -513px;
+}
+
+    /* PAGE 12 */
+
+.p12_1{
+    position: relative;
+    z-index: 2;
+    top: -513px;
+}
+
+    /* PAGE 13 */
+
+.p13_1{
+    position: relative;
+    z-index: 2;
+    top: -513px;
+}
+
+    /* PAGE 14 */
+
+.p14_1{
+    position: relative;
+    z-index: 2;
+    top: -513px;
+}
+
+    /* PAGE 15 */
+
+.p15_1{
+    position: relative;
+    z-index: 2;
+    top: -440px;
+    right: -20px;
+}
+
+.p15_2{
+    position: relative;
+    z-index: 2;
+    right: 120px;
+    animation-duration: 4s;
+    animation-name: pagefordimension15_2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    }
+
+@keyframes pagefordimension15_2 {
+    from {
+    top: -1050px;
+    }
+    to {
+    top: -1040px;
+    } }
+}
+
+    /* PAGE 16a */
+
+.p16a_1{
+    position: relative;
+    z-index: 2;
+    top: -513px;
+}
+
+    /* PAGE 16b */
+
+.p16b_1{
+    position: relative;
+    z-index: 2;
+    top: -513px;
+}
+
+    /* PAGE 17a */
+
+.p17a_1{
+    position: relative;
+    z-index: 2;
+    top: -513px;
+}
+
+    /* PAGE 20 */
+
+.p20_1{
+    position: relative;
+    z-index: 2;
+    top: -513px;
+}

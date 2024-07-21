@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link rel="stylesheet" href="{% static '/css/catalog.css' %}">
+    <meta charset="UTF-8">
+</head>
+<body>
+<nav id="mainNav" class="navbar navbar-light navbar-expand-lg fixed-top" style="background:rgb(40,40,40);">
+    <div class="container">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div id="navbarResponsive" class="collapse navbar-collapse">
+            <a class="navbar-brand"
+               style="--bs-body-color:#959597; -bs-dark:#212529; -bs-dark-rgb: 33,37,41; color:white;">Point & Click</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white;" href="/">Вернуться на главную</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<ul class="cards">
+    <li>
+        <a href="/pagefordimension1/" class="card">
+            <img src="{% static '/image/pixel-512x512_2.png' %}" class="card__image"/>
+            <div class="card__overlay">
+                <div class="card__header">
+                    <svg class="card__arc" xmlns="">
+                    </svg>
+                    <div class="card__header-text">
+                        <h3 class="card__title"><b>Пространство</b></h3>
+                    </div>
+                </div>
+                <p class="card__description">Интерактивный комикс про приключения Пульточелика.</p>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/secondcomics1/" class="card">
+            <img src="{% static '/sec_image/secondcomics1.PNG' %}" class="card__image" alt=""/>
+            <div class="card__overlay">
+                <div class="card__header">
+                    <svg class="card__arc" xmlns="">
+                    </svg>
+                    <div class="card__header-text">
+                        <h3 class="card__title"><b>В поисках сокровища Чёрной Бороды</b></h3>
+                    </div>
+                </div>
+                <p class="card__description">Старое доброе приключение в поисках клада на необитаемом острове</p>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="" class="card">
+            <img src="" class="card__image" alt=""/>
+            <div class="card__overlay">
+                <div class="card__header">
+                    <svg class="card__arc" xmlns="">
+                    </svg>
+                    <div class="card__header-text">
+                        <h3 class="card__title"><b>Комикс</b></h3>
+                    </div>
+                </div>
+                <p class="card__description">Скоро</p>
+            </div>
+        </a>
+    </li>
+</ul>
+</body>
+</html>
